@@ -8,7 +8,7 @@ public class EditStr {
         String s1 = "aa bb  ";
         char[] in = s1.toCharArray();
         EditStr st = new EditStr();
-        st.equals().replace(in, 5);
+        st.replace(in, 5);
         System.out.print(in);
     }
     void replace(char[] str, int len) {
